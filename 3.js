@@ -64,7 +64,7 @@ let min = () => {
 min();
 
 let min_1 = (str) => {
-    str =prompt();
+    str =prompt(your string);
     let final ="";
     if(str.length<=5){
         final =str;
