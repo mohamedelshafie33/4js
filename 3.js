@@ -67,7 +67,7 @@ let min_1 = (str) => {
     str =prompt();
     let final ="";
     if(str.length<=5){
-        final =x;
+        final =str;
     }
     else{
         final =str.slice(0,1)+str.length+str.slice(str.length-1,str.length);
